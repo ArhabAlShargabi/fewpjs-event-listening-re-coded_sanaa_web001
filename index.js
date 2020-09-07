@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-function addingEventListener() {//
+const input = document.querySelector('input');
+
+function addingEventListener() {
+  input.addEventListener('click', function(event) {
+    return "clicked"
+  });
 }
-=======
-function addingEventListener() {.
-}//
->>>>>>> e52ce88b183f7de8e5b4f4b5ebb59fcb85520e57
